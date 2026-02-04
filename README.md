@@ -1,14 +1,11 @@
-# EcoCAR EV Challenge: One-Pedal Drive System
-**Lead Simulink Engineer | Model-Based Design**
+# EcoCAR EV Challenge: One-Pedal Drive & Braking System
+**Lead Simulink Engineer | Model-Based Design | System Safety**
 
 ## Project Overview
-Redesigned the One-Pedal Drive (OPD) system for the Cadillac LYRIQ platform. [cite_start]This project involved developing pedal maps and integrating vehicle software to balance performance, driver comfort, and safety[cite: 9, 11].
+Redesigned the One-Pedal Drive (OPD) and braking architecture for a Cadillac LYRIQ. This involved complex integration of regenerative braking and friction braking to ensure a seamless driver experience and system safety.
 
 ## Technical Contributions
-* [cite_start]**Control Architecture:** Redesigned the system logic in Simulink to manage regenerative braking blending[cite: 9].
-* [cite_start]**Safety Engineering:** Conducted a **Preliminary Hazard Analysis (PHA)** to ensure the system fails safely, including automatic disablement upon fault detection[cite: 10].
-* [cite_start]**Tuning:** Refined 2D pedal maps through iterative testing to meet luxury vehicle standards[cite: 11, 200].
-
-## Tools Used
-* [cite_start]**Modeling:** Simulink, MATLAB[cite: 193].
-* [cite_start]**Hardware-in-the-Loop:** Vehicle software integration[cite: 199].# EcoCAR-OPD-System
+* **Braking System Redesign:** Integrated friction brake blending with regenerative braking models in Simulink.
+* **Control Architecture:** Developed 2D pedal maps to calibrate torque demand vs. pedal travel.
+* **Safety Engineering:** Conducted a formal **Preliminary Hazard Analysis (PHA)**, ensuring automatic system disablement and driver notification during critical faults.
+* **Validation:** Iteratively tuned control gains to balance energy recovery with luxury vehicle "feel".
