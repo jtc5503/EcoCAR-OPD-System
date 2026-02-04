@@ -9,3 +9,7 @@ Redesigned the One-Pedal Drive (OPD) and braking architecture for a Cadillac LYR
 * **Control Architecture:** Developed 2D pedal maps to calibrate torque demand vs. pedal travel.
 * **Safety Engineering:** Conducted a formal **Preliminary Hazard Analysis (PHA)**, ensuring automatic system disablement and driver notification during critical faults.
 * **Validation:** Iteratively tuned control gains to balance energy recovery with luxury vehicle "feel".
+
+## Tools Used
+* **Modeling:** Simulink, MATLAB.
+* **Hardware-in-the-Loop:** Vehicle software integration.
