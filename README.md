@@ -2,7 +2,7 @@
 > **Proprietary Information & NDA Compliance**
 > This project was completed as part of the EcoCAR EV Challenge in partnership with General Motors and the U.S. Department of Energy. Due to the proprietary nature of the vehicle platform (Cadillac LYRIQ) and competition-specific software, certain technical models, source code, and detailed CAD data are protected under a Non-Disclosure Agreement (NDA). The documentation provided here focuses on high-level system architecture, control logic methodology, and safety-critical analysis permitted for public disclosure.
 # EcoCAR EV Challenge: One-Pedal Drive & Braking System
-**Lead Simulink Engineer | Model-Based Design | System Safety**
+**Co-Lead Simulink Engineer | Model-Based Design | System Safety**
 
 ## Project Overview
 Redesigned the One-Pedal Drive (OPD) and braking architecture for a Cadillac LYRIQ. This involved complex integration of regenerative braking and friction braking to ensure a seamless driver experience and system safety.
