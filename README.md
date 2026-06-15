@@ -19,22 +19,30 @@ Redesigned the One-Pedal Drive (OPD) and braking architecture for a Cadillac LYR
 
 ---
 
-## 📊 Poster Presentations & Research
+## 📊 Technical Presentations & Research
 
-Select a presentation below to view the full academic poster and technical breakdown of the system's development lifecycle.
+Click to expand the details for each project phase:
 
 <details>
-<summary><b>📋 2026: EcoCAR PCM Safety & Braking Validation (Senior Design)</b></summary>
+<summary><b>📋 2026: EcoCAR PCM Safety & Braking Validation (Spring)</b></summary>
 <br>
 
 ### EcoCAR: PCM Safety & Braking Validation
-* **Track / Focus:** Mechanical Engineering | High-Performance Vehicles Track (Senior Design 2026)
-* **Team:** John Collins, Roberto Martin | **Advisor:** Dr. Patrick Currier
+* **Focus:** Senior Design 2026 | Mechanical Engineering
+* **Objective:** Conducted a Preliminary Hazard Analysis (PHA) of the Propulsion Control Module (PCM), implemented strict transmission interlocks, and redesigned the braking subsystem with comprehensive fault detection.
+* **Validation:** All logic was verified via Model-in-the-Loop (MIL) simulation and compiled onto a Speedgoat real-time target.
 
-#### Project Overview & Key Objectives
-This work presents the continued development and validation of the Propulsion Control Module (PCM) for the EcoCAR EV Challenge vehicle. Following a preliminary hazard analysis (PHA) of the complete torque path, critical safety gaps were identified in transmission interlock logic, torque limiting behavior, and braking signal coordination. 
+![2026 EcoCAR PCM Safety & Braking Validation Poster](assets/OPD_Spring_Poster.png)
+</details>
 
-* **Preliminary Hazard Analysis:** Evaluated the complete PCM torque path to identify safety-critical failure modes (e.g., unintended propulsion during range changes, loss of friction braking).
-* **Braking Subsystem Redesign:** Integrated comprehensive fault detection (monitoring battery temp, voltage, current, SOC, and inverter states) with strict regenerative braking control and brake blending capability.
-* **Transmission Interlocks:** Tightened shift parameters in Stateflow logic (Neutral ↔ Drive ↔ Reverse conditions) to completely eliminate unsafe range transitions.
-* **Validation & Deployment:** Successfully validated all integrated changes via Model-in-the-Loop (MIL) simulation and compiled the complete module onto the Speedgoat real-time target machine for physical vehicle testing.
+<details>
+<summary><b>📋 2025: EcoCAR One-Pedal Drive System (Fall)</b></summary>
+<br>
+
+### EcoCAR: One-Pedal Drive System
+* **Focus:** Preliminary 2025 | Mechanical Engineering
+* **Objective:** Designed an OPD control architecture mapping accelerator pedal position to manage both propulsion and regenerative braking.
+* **Key Features:** Developed 3D Accelerator Response Maps (ARM), implemented "rolling OPD" creep torque strategies, and validated system comfort via AVL DRIVE analysis.
+
+![2025 EcoCAR One-Pedal Drive System Poster](assets/OPD_Fall_Poster.PNG)
+</details>
